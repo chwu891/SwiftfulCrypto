@@ -28,6 +28,9 @@
 		190E0FEC2C4C855100363756 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FEB2C4C855100363756 /* LocalFileManager.swift */; };
 		190E0FEF2C4DA06700363756 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FEE2C4DA06700363756 /* SearchBarView.swift */; };
 		190E0FF12C4DB3A800363756 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FF02C4DB3A800363756 /* UIApplication.swift */; };
+		190E0FF32C4DC4D100363756 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FF22C4DC4D100363756 /* StatisticModel.swift */; };
+		190E0FF62C4DCFE100363756 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FF52C4DCFE100363756 /* StatisticView.swift */; };
+		190E0FF82C4DD1A700363756 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FF72C4DD1A700363756 /* HomeStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		190E0FEB2C4C855100363756 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		190E0FEE2C4DA06700363756 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		190E0FF02C4DB3A800363756 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		190E0FF22C4DC4D100363756 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		190E0FF52C4DCFE100363756 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		190E0FF72C4DD1A700363756 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,7 @@
 		190E0FC62C46491400363756 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				190E0FF42C4DCFCA00363756 /* Statistic */,
 				190E0FED2C4DA04400363756 /* SearchBar */,
 				190E0FE42C4B254B00363756 /* CoinImage */,
 				190E0FC72C46492100363756 /* CircleButton */,
@@ -157,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				190E0FCD2C46496400363756 /* HomeView.swift */,
+				190E0FF72C4DD1A700363756 /* HomeStatsView.swift */,
 				190E0FD82C49E04A00363756 /* CoinRowView.swift */,
 			);
 			path = Views;
@@ -175,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				190E0FD42C479EAC00363756 /* CoinModel.swift */,
+				190E0FF22C4DC4D100363756 /* StatisticModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +221,14 @@
 				190E0FEE2C4DA06700363756 /* SearchBarView.swift */,
 			);
 			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		190E0FF42C4DCFCA00363756 /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				190E0FF52C4DCFE100363756 /* StatisticView.swift */,
+			);
+			path = Statistic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,12 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190E0FF32C4DC4D100363756 /* StatisticModel.swift in Sources */,
 				190E0FE82C4B260300363756 /* CoinImageViewModel.swift in Sources */,
 				190E0FE02C4B0AEB00363756 /* CoinDataService.swift in Sources */,
 				190E0FD92C49E04A00363756 /* CoinRowView.swift in Sources */,
 				190E0FDD2C49F07D00363756 /* HomeViewModel.swift in Sources */,
 				190E0FEC2C4C855100363756 /* LocalFileManager.swift in Sources */,
 				190E0FD22C4649F600363756 /* CircleButtonView.swift in Sources */,
+				190E0FF62C4DCFE100363756 /* StatisticView.swift in Sources */,
 				190E0FB72C46481C00363756 /* ContentView.swift in Sources */,
 				190E0FE62C4B256500363756 /* CoinImageView.swift in Sources */,
 				190E0FF12C4DB3A800363756 /* UIApplication.swift in Sources */,
@@ -297,6 +316,7 @@
 				190E0FC42C46489700363756 /* Color.swift in Sources */,
 				190E0FEF2C4DA06700363756 /* SearchBarView.swift in Sources */,
 				190E0FD02C46496400363756 /* HomeView.swift in Sources */,
+				190E0FF82C4DD1A700363756 /* HomeStatsView.swift in Sources */,
 				190E0FE32C4B1A2E00363756 /* NetworkingManager.swift in Sources */,
 				190E0FD72C49DFF700363756 /* Preview.swift in Sources */,
 				190E0FCA2C46493200363756 /* CircleButtonAnimationView.swift in Sources */,
