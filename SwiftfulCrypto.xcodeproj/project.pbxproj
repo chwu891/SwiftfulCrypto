@@ -31,6 +31,8 @@
 		190E0FF32C4DC4D100363756 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FF22C4DC4D100363756 /* StatisticModel.swift */; };
 		190E0FF62C4DCFE100363756 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FF52C4DCFE100363756 /* StatisticView.swift */; };
 		190E0FF82C4DD1A700363756 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FF72C4DD1A700363756 /* HomeStatsView.swift */; };
+		190E0FFA2C4F3BB300363756 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FF92C4F3BB300363756 /* MarketDataModel.swift */; };
+		190E0FFC2C4F426300363756 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E0FFB2C4F426300363756 /* MarketDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		190E0FF22C4DC4D100363756 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		190E0FF52C4DCFE100363756 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		190E0FF72C4DD1A700363756 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
+		190E0FF92C4F3BB300363756 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		190E0FFB2C4F426300363756 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,7 @@
 			children = (
 				190E0FD42C479EAC00363756 /* CoinModel.swift */,
 				190E0FF22C4DC4D100363756 /* StatisticModel.swift */,
+				190E0FF92C4F3BB300363756 /* MarketDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			children = (
 				190E0FDF2C4B0AEB00363756 /* CoinDataService.swift */,
 				190E0FE92C4B277600363756 /* CoinImageService.swift */,
+				190E0FFB2C4F426300363756 /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 				190E0FD92C49E04A00363756 /* CoinRowView.swift in Sources */,
 				190E0FDD2C49F07D00363756 /* HomeViewModel.swift in Sources */,
 				190E0FEC2C4C855100363756 /* LocalFileManager.swift in Sources */,
+				190E0FFA2C4F3BB300363756 /* MarketDataModel.swift in Sources */,
 				190E0FD22C4649F600363756 /* CircleButtonView.swift in Sources */,
 				190E0FF62C4DCFE100363756 /* StatisticView.swift in Sources */,
 				190E0FB72C46481C00363756 /* ContentView.swift in Sources */,
@@ -317,6 +324,7 @@
 				190E0FEF2C4DA06700363756 /* SearchBarView.swift in Sources */,
 				190E0FD02C46496400363756 /* HomeView.swift in Sources */,
 				190E0FF82C4DD1A700363756 /* HomeStatsView.swift in Sources */,
+				190E0FFC2C4F426300363756 /* MarketDataService.swift in Sources */,
 				190E0FE32C4B1A2E00363756 /* NetworkingManager.swift in Sources */,
 				190E0FD72C49DFF700363756 /* Preview.swift in Sources */,
 				190E0FCA2C46493200363756 /* CircleButtonAnimationView.swift in Sources */,
