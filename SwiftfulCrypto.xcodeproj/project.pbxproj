@@ -47,6 +47,8 @@
 		190E10192C50BA5400363756 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E10182C50BA5400363756 /* Date.swift */; };
 		190E101B2C50BEEF00363756 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E101A2C50BEEF00363756 /* String.swift */; };
 		190E101F2C50C21600363756 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E101E2C50C21600363756 /* SettingsView.swift */; };
+		198B60162C50C733001BCE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198B60152C50C733001BCE30 /* LaunchScreen.storyboard */; };
+		198B60182C50C8F4001BCE30 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198B60172C50C8F4001BCE30 /* LaunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +93,8 @@
 		190E10182C50BA5400363756 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		190E101A2C50BEEF00363756 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		190E101E2C50C21600363756 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		198B60152C50C733001BCE30 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		198B60172C50C8F4001BCE30 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				190E0FC62C46491400363756 /* Components */,
+				198B60132C50C70A001BCE30 /* Launch */,
 				190E0FCF2C46496400363756 /* Home */,
 				190E100B2C5075EF00363756 /* Detail */,
 				190E101C2C50C1DE00363756 /* Settings */,
@@ -327,6 +332,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		198B60132C50C70A001BCE30 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				198B60142C50C71E001BCE30 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		198B60142C50C71E001BCE30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				198B60152C50C733001BCE30 /* LaunchScreen.storyboard */,
+				198B60172C50C8F4001BCE30 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -385,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198B60162C50C733001BCE30 /* LaunchScreen.storyboard in Resources */,
 				190E0FBC2C46481D00363756 /* Preview Assets.xcassets in Resources */,
 				190E0FB92C46481D00363756 /* Assets.xcassets in Resources */,
 			);
@@ -413,6 +436,7 @@
 				190E0FB72C46481C00363756 /* ContentView.swift in Sources */,
 				190E0FE62C4B256500363756 /* CoinImageView.swift in Sources */,
 				190E0FF12C4DB3A800363756 /* UIApplication.swift in Sources */,
+				198B60182C50C8F4001BCE30 /* LaunchView.swift in Sources */,
 				190E0FB52C46481C00363756 /* SwiftfulCryptoApp.swift in Sources */,
 				190E0FC42C46489700363756 /* Color.swift in Sources */,
 				190E100F2C50762000363756 /* DetailView.swift in Sources */,
@@ -574,6 +598,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -602,6 +627,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
