@@ -46,6 +46,7 @@
 		190E10172C509ED800363756 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E10162C509ED800363756 /* ChartView.swift */; };
 		190E10192C50BA5400363756 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E10182C50BA5400363756 /* Date.swift */; };
 		190E101B2C50BEEF00363756 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E101A2C50BEEF00363756 /* String.swift */; };
+		190E101F2C50C21600363756 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E101E2C50C21600363756 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		190E10162C509ED800363756 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		190E10182C50BA5400363756 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		190E101A2C50BEEF00363756 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		190E101E2C50C21600363756 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,9 +160,10 @@
 		190E0FC52C46490C00363756 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				190E100B2C5075EF00363756 /* Detail */,
 				190E0FC62C46491400363756 /* Components */,
 				190E0FCF2C46496400363756 /* Home */,
+				190E100B2C5075EF00363756 /* Detail */,
+				190E101C2C50C1DE00363756 /* Settings */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -308,6 +311,22 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		190E101C2C50C1DE00363756 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				190E101D2C50C20500363756 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		190E101D2C50C20500363756 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				190E101E2C50C21600363756 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -415,6 +434,7 @@
 				190E10152C50914600363756 /* CoinDetailDataService.swift in Sources */,
 				190E10132C5090E000363756 /* DetailViewModel.swift in Sources */,
 				190E10082C50465B00363756 /* PortfolioDataService.swift in Sources */,
+				190E101F2C50C21600363756 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
