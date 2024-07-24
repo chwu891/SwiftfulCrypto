@@ -45,6 +45,7 @@
 		190E10152C50914600363756 /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E10142C50914600363756 /* CoinDetailDataService.swift */; };
 		190E10172C509ED800363756 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E10162C509ED800363756 /* ChartView.swift */; };
 		190E10192C50BA5400363756 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E10182C50BA5400363756 /* Date.swift */; };
+		190E101B2C50BEEF00363756 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E101A2C50BEEF00363756 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		190E10142C50914600363756 /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 		190E10162C509ED800363756 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		190E10182C50BA5400363756 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		190E101A2C50BEEF00363756 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				190E0FDA2C49E16E00363756 /* Double.swift */,
 				190E0FF02C4DB3A800363756 /* UIApplication.swift */,
 				190E10182C50BA5400363756 /* Date.swift */,
+				190E101A2C50BEEF00363756 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				190E0FFC2C4F426300363756 /* MarketDataService.swift in Sources */,
 				190E0FE32C4B1A2E00363756 /* NetworkingManager.swift in Sources */,
 				190E0FD72C49DFF700363756 /* Preview.swift in Sources */,
+				190E101B2C50BEEF00363756 /* String.swift in Sources */,
 				190E0FCA2C46493200363756 /* CircleButtonAnimationView.swift in Sources */,
 				190E0FFE2C4F47EF00363756 /* PortfolioView.swift in Sources */,
 				190E0FDB2C49E16E00363756 /* Double.swift in Sources */,
